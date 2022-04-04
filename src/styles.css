@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*, body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.form-container {
+    height: 100vh;
+    display: flex;
+
+}
+
+.leftpage-signup,
+.rightPage-signup {
+    flex: 50%;
+    min-height: 100%;
+}
+
+/* LEFT SIGNUP PAGE  */
+
+.leftpage-signup {
+    padding: 20px 40px;
+    background: rgb(252,230,233);
+    background: radial-gradient(circle, rgba(252,230,233,1) 22%, rgba(255,255,255,1) 87%);
+}
+
+.leftpage-signup header .logo-container span {
+    font-size: 25px;
+    font-weight: 800;
+    color: rgba(20, 33, 61, 0.75);
+}
+
+.leftpage-signup .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftpage-signup .content .img-content {
+    margin-top: 80px;
+}
+
+.leftpage-signup .content .text-content {
+    text-align: center;
+    margin-top: 30px;
+    padding: 0 100px;
+    color: rgba(20, 33, 61, 0.75);
+}
+
+.leftpage-signup .content .text-content h1 {
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    font-size: 35px;
+}
+
+/* COUNTRY SELECT AND PHONE SELECT  */
+.ReactFlagsSelect-module_flagsSelect__2pfa2 {
+    width: 100%;
+    background-color: #f7f7f7 !important;
+    flex: 100%;
+    border-radius: 8px;
+    border: solid 1px #c9c9c9;
+}
+
+.ReactFlagsSelect-module_selectBtn__19wW7 {
+    border: none !important;
+}
+
+.react-tel-input .form-control {
+    height: 100% !important;
+    background-color: #f7f7f7 !important;
+    border-radius: 8px !important;
+    flex: 0%;
+}
+
+.react-tel-input .flag-dropdown {
+    background-color: #f7f7f7 !important;
+    border-radius: 8px 0 0 8px !important;
+}
+
+
+/* SIGNUP FORM PAGE-CSS */
+
+.rightPage-signup {
+    padding: 0 80px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+}
+
+.rightPage-signup .signup-inner-wrapper {
+    width: 100%;
+}
+
+.rightPage-signup .signup-inner-wrapper .form-header-text {
+    color: rgba(20, 33, 61, 0.9);
+}
+
+.rightPage-signup .signup-inner-wrapper .form-header-text h1 {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.rightPage-signup .signup-inner-wrapper .form-header-text p {
+    color: #858383;
+}
+
+.rightPage-signup .signup-inner-wrapper .form-header-text {
+    font-size: 20px;
+}
+
+.rightPage-signup .signup-inner-wrapper form {
+    margin-top: 30px;
+}
+
+.rightPage-signup .signup-inner-wrapper form .input-container-flex {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.rightPage-signup .signup-inner-wrapper form .input-container-flex:nth-child(2) {
+    margin: 10px 0;
+}
+
+.cta-btn {
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 8px;
+    border: none;
+    padding: 10px 0;
+    outline: none;
+    background-color: rgb(241, 30, 30);
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.signin-wrapper {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.signin-wrapper p {
+    color: #9c9999;
+}
+
+.signin-wrapper p span a {
+    color: #292828;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* TEXT INPUT COMPONENT */
+.text-wrapper {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.text-wrapper .inner-wrapper {
+    margin-top: 5px;
+    width: 100%;
+    border: solid 1px #c9c9c9;
+    background-color: #f7f7f7;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 7px;
+    gap: 10px;
+}
+
+.input-icon img, .password-icon img {
+    display: block;
+    margin: 0 auto;
+}
+
+.text-wrapper .inner-wrapper input {
+    outline: none;
+    background-color: transparent;
+    border: none;
+    width: 100%;
+}
+
+.text-wrapper .inner-wrapper input::placeholder {
+    color: #292828;
+}
