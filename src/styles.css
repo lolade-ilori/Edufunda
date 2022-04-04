@@ -87,7 +87,7 @@
 
 .rightPage-signup {
     padding: 0 80px;
-    padding-top: 60px;
+    padding-top: 40px;
     padding-bottom: 20px;
     display: flex;
     justify-content: center;
@@ -103,16 +103,13 @@
 }
 
 .rightPage-signup .signup-inner-wrapper .form-header-text h1 {
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 700;
 }
 
 .rightPage-signup .signup-inner-wrapper .form-header-text p {
     color: #858383;
-}
-
-.rightPage-signup .signup-inner-wrapper .form-header-text {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .rightPage-signup .signup-inner-wrapper form {

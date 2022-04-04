@@ -12,7 +12,7 @@ function LeftPage() {
 
         <div className="content">
             <div className="img-content">
-                <img src={ContentSvg} width={550}/>
+                <img src={ContentSvg} width={450}/>
             </div>
 
             <div className="text-content">
