@@ -47,14 +47,14 @@
 .leftpage-signup .content .text-content {
     text-align: center;
     margin-top: 30px;
-    padding: 0 100px;
+    padding: 0 80px;
     color: rgba(20, 33, 61, 0.75);
 }
 
 .leftpage-signup .content .text-content h1 {
     text-transform: capitalize;
     margin-bottom: 15px;
-    font-size: 35px;
+    font-size: 30px;
 }
 
 /* COUNTRY SELECT AND PHONE SELECT  */
@@ -137,7 +137,7 @@
     background-color: rgb(241, 30, 30);
     color: #ffffff;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 18px;
     cursor: pointer;
 }
 
